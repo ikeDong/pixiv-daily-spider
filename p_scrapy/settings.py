@@ -12,11 +12,11 @@ BOT_NAME = 'p_scrapy'
 SPIDER_MODULES = ['p_scrapy.spiders']
 NEWSPIDER_MODULE = 'p_scrapy.spiders'
 
-MYSQL_HOST = '52.253.95.47'
-MYSQL_DATABASE = 'pixiv'
-MYSQL_PORT = 3306
-MYSQL_USER = 'pixiv'
-MYSQL_PASSWORD = '3hfz5dDRsjS8GxH'
+MYSQL_HOST = '52.253.95.47'  # 服务器IP地址
+MYSQL_DATABASE = 'pixiv'   # 数据库名称
+MYSQL_PORT = 3306    # 端口
+MYSQL_USER = 'pixiv' # 用户名
+MYSQL_PASSWORD = '3hfz5dDRsjS8GxH'  # 密码
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'p_scrapy (+http://www.yourdomain.com)'
 
